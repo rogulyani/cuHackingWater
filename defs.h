@@ -7,16 +7,15 @@
 
 typedef struct
 {
-	int alcholo;
-	int caffine;
-	int timeWorkOut;
+	float alcholo;
+	float caffine;
+	float timeWorkOut;
 	float weight;
 	float total;
 }drinkerType;
 
-void waterCal(drinkerType*);
+void waterCal(drinkerType* ret);
 float addWater(int);
-float AddMore(int);
 void nextCup(int, int, int);
-void initDrinker(float, int, int, int, drinkerType*);
-void printfun(drinkerType*);
+void initDrinker(float, float, float, float, drinkerType*);
+void printfun(drinkerType* ret);
