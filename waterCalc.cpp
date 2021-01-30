@@ -1,6 +1,6 @@
 #include "defs.h" 
 
-float waterCal(drinkerType* ret)
+void waterCal(drinkerType* ret)
 {
 	ret->total = ret->weight * 2 / 3;
 	if (ret->alcholo != NULL)
@@ -18,7 +18,6 @@ float waterCal(drinkerType* ret)
 		ret->timeWorkOut = addWater(ret->timeWorkOut);
 		ret->total += ret->total + ret->timeWorkOut;
 	}
-	return 0;
 }
 
 float addWater(int time)
