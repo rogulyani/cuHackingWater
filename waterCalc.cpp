@@ -1,10 +1,3 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <assert.h>
-#include <stdio.h>
-using namespace std;
-
 float waterCalc(float weight,int time, int caffine, int alchohol)
 {
 	float ret = weight * 2 / 3;
