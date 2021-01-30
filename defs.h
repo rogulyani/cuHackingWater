@@ -12,12 +12,6 @@ struct water
 	float total;
 };
 
-struct drinkWater
-{
-	int time;
-	int glasses;
-};
-
 float waterCalc(float, int, int, int);
 float addWater(int);
 float AddMore(int);
