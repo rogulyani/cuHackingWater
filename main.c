@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "defs.h"
 
 int main(){
 
     int age, workoutTime, active, numWorkouts, numGlasses, timeSinceWater;
-    float weight;
+    float weight, amtCaffine, amtBooze;
 
     printf("Enter your age:\n");
     scanf("%i", &age);
@@ -60,8 +60,22 @@ int main(){
         return;
     }
 
+    printf("\nEnter how many caffinated drinks you have consumed today: \n");
+    scanf("%i", &amtCaffine);
+    if(amtCaffine < 0){
+        printf("Please enter a valid number!");
+        return;
+    }
+
+    printf("\nEnter how many alcoholic drinks you have consumed today: \n");
+    scanf("%i", &amtBooze);
+    if(amtBooze < 0){
+        printf("Please enter a valid number!");
+        return;
+    }
 
 
+    //send to function
 
 
 
