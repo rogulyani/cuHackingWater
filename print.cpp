@@ -1,6 +1,6 @@
 #include "defs.h" 
 
-void printfun(water* ret )
+void printfun(drinkerType* ret )
 {
 	if (ret->caffine != NULL)
 	{
