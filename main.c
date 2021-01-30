@@ -3,8 +3,8 @@
 int main() {
 
     drinkerType d1;
-    int workoutTime, active, numWorkouts, numGlasses, timeSinceWater, amtCaffine, amtBooze, palmBay;
-    float weight;
+    int active, numGlasses, timeSinceWater, palmBay;
+    float weight, amtCaffine, numWorkouts, workoutTime, amtBooze;
 
     printf("\nEnter your weight in lbs:\n");
     scanf_s("%f", &weight);
@@ -60,7 +60,7 @@ int main() {
     }
 
     printf("\nEnter how many caffinated drinks you have consumed today: \n");
-    scanf_s("%i", &amtCaffine);
+    scanf_s("%f", &amtCaffine);
     if (amtCaffine < 0) {
         printf("Please enter a valid number!");
         return 0;
@@ -70,7 +70,7 @@ int main() {
     }
 
     printf("\nEnter how many alcoholic drinks you have consumed today: \n");
-    scanf_s("%i", &amtBooze);
+    scanf_s("%f", &amtBooze);
     if (amtBooze < 0) {
         printf("Please enter a valid number!");
         return 0;
@@ -85,7 +85,6 @@ int main() {
             d1.alcholo = amtBooze;
         }
     }
-
     initDrinker(weight, amtBooze, amtCaffine, workoutTime, &d1);
 
     waterCal(&d1);
