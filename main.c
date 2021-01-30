@@ -1,87 +1,87 @@
 #include "defs.h"
 
-int main(){
+int main() {
 
-    struct drinker d1;
+    drinkerType d1;
     int workoutTime, active, numWorkouts, numGlasses, timeSinceWater, amtCaffine, amtBooze, palmBay;
     float weight;
 
     printf("\nEnter your weight in lbs:\n");
-    scanf("%f", &weight);
+    scanf_s("%f", &weight);
 
-    if(weight<1){
+    if (weight < 1) {
         printf("Please enter a valid weight!");
-        return;
+        return 0;
     }
-    else{
+    else {
         d1.weight = weight;
     }
 
     printf("\nEnter how many times have you excercized this week: \n");
-    scanf("%i", &numWorkouts);
+    scanf_s("%i", &numWorkouts);
 
-    if(numWorkouts<0){
+    if (numWorkouts < 0) {
         printf("Please enter a valid number!");
-        return;
+        return 0;
     }
-    
 
-    if(numWorkouts<2){
+
+    if (numWorkouts < 2) {
         active = 0;
         workoutTime = 0;
     }
-    else{
+    else {
         active = 1;
         printf("\nEnter how long your average workout is in minutes:\n");
-        scanf("%i", &workoutTime);
+        scanf_s("%i", &workoutTime);
 
-        if(workoutTime<0){
+        if (workoutTime < 0) {
             printf("Please enter a valid number!");
-            return;
+            return 0;
         }
     }
 
-    d1.timeWorkout = workoutTime;
+    d1.timeWorkOut = workoutTime;
 
     printf("\nEnter how many glasses of water you have drunk today: \n");
-    scanf("%i", &numGlasses);
+    scanf_s("%i", &numGlasses);
 
-    if(numGlasses<0){
+    if (numGlasses < 0) {
         printf("Please enter a valid number!");
-        return;
+        return 0;
     }
 
     printf("\nEnter how long ago you last drank water: \n");
-    scanf("%i", &timeSinceWater);
+    scanf_s("%i", &timeSinceWater);
 
-    if(timeSinceWater<0){
+    if (timeSinceWater < 0) {
         printf("Please enter a valid number!");
-        return;
+        return 0;
     }
 
     printf("\nEnter how many caffinated drinks you have consumed today: \n");
-    scanf("%i", &amtCaffine);
-    if(amtCaffine < 0){
+    scanf_s("%i", &amtCaffine);
+    if (amtCaffine < 0) {
         printf("Please enter a valid number!");
-        return;
+        return 0;
     }
-    else{
+    else {
         d1.caffine = amtCaffine;
     }
 
     printf("\nEnter how many alcoholic drinks you have consumed today: \n");
-    scanf("%i", &amtBooze);
-    if(amtBooze < 0){
+    scanf_s("%i", &amtBooze);
+    if (amtBooze < 0) {
         printf("Please enter a valid number!");
-        return;
+        return 0;
     }
-    else{
+    else {
         printf("Did you drink palm bays? Enter 1 for yes or 2 for no:\n");
-        scanf("%i", &palmBay);
-        if(palmBay == 1){
+        scanf_s("%i", &palmBay);
+        if (palmBay == 1) {
             printf("Error. Cannot help people with bad taste!");
         }
-        else{
+        else {
             d1.alcholo = amtBooze;
         }
     }
@@ -89,6 +89,6 @@ int main(){
 
     //send to function
 
-
+    return 0;
 
 }
