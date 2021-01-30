@@ -1,13 +1,15 @@
 #include "defs.h"
 
-int main() {
+int main()
+{
 
     drinkerType d1;
-    int workoutTime, active, numWorkouts, numGlasses, timeSinceWater, amtCaffine, amtBooze, palmBay;
-    float weight;
+    int active, timeSinceWater, palmBay;
+    float weight, numWorkouts, numGlasses, amtCaffine, amtBooze, workoutTime;
 
     printf("\nEnter your weight in lbs:\n");
     scanf_s("%f", &weight);
+    printf("%f",weight);
 
     if (weight < 1) {
         printf("Please enter a valid weight!");
@@ -15,7 +17,7 @@ int main() {
     }
 
     printf("\nEnter how many times have you excercized this week: \n");
-    scanf_s("%i", &numWorkouts);
+    scanf_s("%f", &numWorkouts);
 
     if (numWorkouts < 0) {
         printf("Please enter a valid number!");
@@ -30,7 +32,7 @@ int main() {
     else {
         active = 1;
         printf("\nEnter how long your average workout is in minutes:\n");
-        scanf_s("%i", &workoutTime);
+        scanf_s("%f", &workoutTime);
 
         if (workoutTime < 0) {
             printf("Please enter a valid number!");
@@ -39,7 +41,7 @@ int main() {
     }
 
     printf("\nEnter how many glasses of water you have drunk today: \n");
-    scanf_s("%i", &numGlasses);
+    scanf_s("%f", &numGlasses);
 
     if (numGlasses < 0) {
         printf("Please enter a valid number!");
@@ -55,14 +57,14 @@ int main() {
     }
 
     printf("\nEnter how many caffinated drinks you have consumed today: \n");
-    scanf_s("%i", &amtCaffine);
+    scanf_s("%f", &amtCaffine);
     if (amtCaffine < 0) {
         printf("Please enter a valid number!");
         return 0;
     }
 
     printf("\nEnter how many alcoholic drinks you have consumed today: \n");
-    scanf_s("%i", &amtBooze);
+    scanf_s("%f", &amtBooze);
     if (amtBooze < 0) {
         printf("Please enter a valid number!");
         return 0;
@@ -84,5 +86,4 @@ int main() {
     nextCup(timeSinceWater, numGlasses, d1.total);
 
     return 0;
-
 }
