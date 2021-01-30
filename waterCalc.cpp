@@ -1,23 +1,23 @@
 #include "defs.h" 
-float waterCalc(float weight,int time, int caffine, int alchohol)
+
+float waterCal(struct water* ret)
 {
-	float ret = weight * 2 / 3;
-	if  (time != NULL)
+	ret->total = ret->weight * 2 / 3;
+	if (ret->alcholo != NULL)
 	{
-		float waterPlus = addWater(time);
-		ret = ret + waterPlus;
+		ret->alcholo = AddMore(ret->alcholo);
+		ret->total += ret->total + ret->alcholo;
 	}
-	if (caffine != NULL)
+	if (ret->caffine != NULL)
 	{
-		float waterPlus2 = AddMore(caffine);
-		ret = ret + waterPlus2;
+		ret->caffine = AddMore(ret->caffine);
+		ret->total += ret->caffine;
 	}
-	if (alchohol != NULL)
+	if (ret->timeWorkOut != NULL)
 	{
-		float waterPlus3 = AddMore(alchohol);
-		ret = ret + waterPlus3;
+		ret->timeWorkOut = addWater(ret->timeWorkOut);
+		ret->total += ret->total + ret->timeWorkOut;
 	}
-	return ret;
 }
 
 float addWater(int time)
@@ -35,7 +35,7 @@ float AddMore(int number)
 	float counter = 0;
 	for (int i = 0; i < number; i++)
 	{
-		counter += 8;
+		counter++;
 	}
 	return counter;
 }
