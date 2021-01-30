@@ -4,5 +4,6 @@
 #include <string>
 #include <assert.h>
 
-float waterCalc(float, int);
+float waterCalc(float, int, int, int);
 float addWater(int);
+float AddMore(int);
