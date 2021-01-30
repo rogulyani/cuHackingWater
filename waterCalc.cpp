@@ -1,6 +1,6 @@
 #include "defs.h" 
 
-float waterCal(struct water* ret)
+float waterCal(struct drinker* ret)
 {
 	ret->total = ret->weight * 2 / 3;
 	if (ret->alcholo != NULL)
@@ -18,6 +18,7 @@ float waterCal(struct water* ret)
 		ret->timeWorkOut = addWater(ret->timeWorkOut);
 		ret->total += ret->total + ret->timeWorkOut;
 	}
+	return 0;
 }
 
 float addWater(int time)
