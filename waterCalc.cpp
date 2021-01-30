@@ -1,6 +1,6 @@
 #include "defs.h" 
 
-float waterCalc(drinkerType* ret)
+float waterCal(drinkerType* ret)
 {
 	ret->total = ret->weight * 2 / 3;
 	if (ret->alcholo != NULL)
