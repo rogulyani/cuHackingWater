@@ -15,6 +15,9 @@ int main()
         printf("Please enter a valid weight!");
         return 0;
     }
+    else {
+        d1.weight = weight;
+    }
 
     printf("\nEnter how many times have you excercized this week: \n");
     scanf_s("%f", &numWorkouts);
@@ -37,6 +40,9 @@ int main()
         if (workoutTime < 0) {
             printf("Please enter a valid number!");
             return 0;
+        }
+        else{
+            d1.timeWorkOut = workoutTime;
         }
     }
 
@@ -62,6 +68,9 @@ int main()
         printf("Please enter a valid number!");
         return 0;
     }
+    else {
+        d1.caffine = amtCaffine;
+    }
 
     printf("\nEnter how many alcoholic drinks you have consumed today: \n");
     scanf_s("%f", &amtBooze);
@@ -75,9 +84,12 @@ int main()
         if (palmBay == 1) {
             printf("Error. Cannot help people with bad taste!");
         }
+        else {
+            d1.alcholo = amtBooze;
+        }
     }
 
-    initDrinker(weight, amtBooze, amtCaffine, workoutTime, &d1);
+    // initDrinker(weight, amtBooze, amtCaffine, workoutTime, &d1);
 
     waterCal(&d1);
 
