@@ -5,21 +5,17 @@
 #include <string>
 #include <assert.h>
 
-struct drinker
+typedef struct
 {
 	int alcholo;
 	int caffine;
 	int timeWorkOut;
 	float weight;
 	float total;
-};
-
-struct drinkWater
-{
-	int time;
-	int glasses;
-};
+}drinkerType;
 
 float waterCalc(float, int, int, int);
 float addWater(int);
 float AddMore(int);
+void nextCup(int, int, int);
+void initDrinker(float*, int, int, int, drinkerType**);
