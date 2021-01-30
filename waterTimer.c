@@ -7,14 +7,14 @@ void nextCup(int timeSinceWater, int numGlasses, int glassesPerDay){
     timeTillDrink = timeBetweenCups - timeSinceWater;
 
     if(numGlasses >= glassesPerDay){
-        printf("You have already drank enough water today!");
+        printf("You have already drank enough water today! \n");
     }
     else{
         if(timeSinceWater > timeBetweenCups){
             printf("Drink water now!");
         }
         else{
-            printf("You need to drink water in %i minutes!", timeTillDrink);
+            printf("You need to drink water in %i minutes! \n", timeTillDrink);
         }
     }
 
