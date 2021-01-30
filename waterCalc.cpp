@@ -34,7 +34,7 @@ float AddMore(int number)
 	float counter = 0;
 	for (int i = 0; i < number; i++)
 	{
-		counter++;
+		counter += 8;
 	}
 	return counter;
 }
