@@ -1,5 +1,6 @@
 #include "defs.h"
 
+//Calcs how long until you should next drink water
 void nextCup(int timeSinceWater, int numGlasses, int glassesPerDay) {
     int timeBetweenCups, timeTillDrink;
 

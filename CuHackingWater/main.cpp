@@ -9,7 +9,6 @@ int main()
 
     printf("\nEnter your weight in lbs:\n");
     scanf_s("%f", &weight);
-    printf("%f", weight);
 
     if (weight < 1) {
         printf("Please enter a valid weight!");
