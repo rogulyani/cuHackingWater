@@ -1,3 +1,4 @@
+#include "defs.h" 
 float waterCalc(float weight,int time, int caffine, int alchohol)
 {
 	float ret = weight * 2 / 3;
