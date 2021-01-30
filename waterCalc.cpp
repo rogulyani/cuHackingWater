@@ -23,7 +23,7 @@ void waterCal(drinkerType* ret)
 float addWater(int time)
 {
 	float counter = 0;
-	for (int i = 0; i < time; i + 5)
+	for (int i = 0; i < time; i+5)
 	{
 		counter += 2.4;
 	}
