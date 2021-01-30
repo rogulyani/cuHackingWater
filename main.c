@@ -86,8 +86,13 @@ int main() {
         }
     }
 
+    initDrinker(weight, amtBooze, amtCaffine, workoutTime, &d1);
 
-    //send to function
+    waterCal(&d1);
+
+    printfun(&d1);
+
+    nextCup(timeSinceWater, numGlasses, d1.total);
 
     return 0;
 
