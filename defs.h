@@ -14,8 +14,9 @@ typedef struct
 	float total;
 }drinkerType;
 
-float waterCalc(float, int, int, int);
+float waterCal(drinkerType* ret);
 float addWater(int);
 float AddMore(int);
 void nextCup(int, int, int);
 void initDrinker(float*, int, int, int, drinkerType**);
+void printfun(drinkerType* ret );
