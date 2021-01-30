@@ -3,13 +3,20 @@
 #include <fstream>
 #include <string>
 #include <assert.h>
-struct water
+
+struct drinker
 {
 	int alcholo;
 	int caffine;
 	int timeWorkOut;
 	float weight;
 	float total;
+};
+
+struct drinkWater
+{
+	int time;
+	int glasses;
 };
 
 float waterCalc(float, int, int, int);
