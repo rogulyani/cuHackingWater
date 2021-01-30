@@ -2,7 +2,7 @@
 
 int main(){
 
-    drinker d1;
+    struct drinker d1;
     int workoutTime, active, numWorkouts, numGlasses, timeSinceWater, amtCaffine, amtBooze, palmBay;
     float weight;
 
