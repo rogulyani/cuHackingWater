@@ -1,4 +1,10 @@
-﻿  main.cpp
-C:\cuHackingWater\CuHackingWater\main.cpp(102,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\cuHackingWater\CuHackingWater\main.cpp(102,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  funFacts.cpp
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(17,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(17,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(17,10): message : the missing variadic argument 2 is required by format string '%c'
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(17,10): message : this argument is used as a buffer size
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(48,10): warning C4473: 'printf' : not enough arguments passed for format string
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(48,10): message : placeholders and their parameters expect 2 variadic arguments, but 0 were provided
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(48,10): message : the missing variadic argument 1 is required by format string '% o'
+C:\cuHackingWater\CuHackingWater\funFacts.cpp(68,10): warning C4476: 'printf' : unknown type field character ')' in format specifier
   CuHackingWater.vcxproj -> C:\cuHackingWater\Debug\CuHackingWater.exe
