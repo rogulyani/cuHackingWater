@@ -19,3 +19,4 @@ float addWater(int);
 void nextCup(int, int, int);
 void initDrinker(float, float, float, float, drinkerType*);
 void printfun(drinkerType* ret);
+void dayilyTracker(drinkerType* ret);
