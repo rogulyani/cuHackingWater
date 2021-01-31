@@ -1,6 +1,11 @@
 #include "defs.h"
 
-//Calcs how long until you should next drink water
+/// <summary>
+/// Tells the user when the next time they should consume water
+/// </summary>
+/// <param name="timeSinceWater">user input, last time they consumed water</param>
+/// <param name="numGlasses">user input, # of glasses water dranken today</param>
+/// <param name="glassesPerDay">average number of glasses to consume</param>
 void nextCup(int timeSinceWater, int numGlasses, int glassesPerDay) {
     int timeBetweenCups, timeTillDrink;
 
