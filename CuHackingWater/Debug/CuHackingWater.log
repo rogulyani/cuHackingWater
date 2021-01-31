@@ -1,10 +1,4 @@
 ﻿  main.cpp
-C:\CuHacking2021\CuHackingWater\CuHackingWater\main.cpp(98,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\CuHacking2021\CuHackingWater\CuHackingWater\main.cpp(98,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  print.cpp
-  waterCalc.cpp
-C:\CuHacking2021\CuHackingWater\CuHackingWater\waterCalc.cpp(5,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\CuHacking2021\CuHackingWater\CuHackingWater\waterCalc.cpp(11,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  waterTimer.cpp
-  Generating Code...
-  CuHackingWater.vcxproj -> C:\CuHacking2021\CuHackingWater\Debug\CuHackingWater.exe
+C:\cuHackingWater\CuHackingWater\main.cpp(102,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\cuHackingWater\CuHackingWater\main.cpp(102,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  CuHackingWater.vcxproj -> C:\cuHackingWater\Debug\CuHackingWater.exe

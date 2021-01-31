@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dayilyTracker.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="print.cpp" />
     <ClCompile Include="waterCalc.cpp" />

@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\CuHacking2021\CuHackingWater\Debug\CuHackingWater.exe</FullPath>
+      <FullPath>C:\cuHackingWater\Debug\CuHackingWater.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
