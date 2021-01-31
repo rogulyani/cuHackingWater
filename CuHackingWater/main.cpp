@@ -101,5 +101,6 @@ int main()
     printfun(&d1);
     nextCup(timeSinceWater, numGlasses, d1.total);
     dayilyTracker(&d1);
+    funFacts();
     return 0;
 }
