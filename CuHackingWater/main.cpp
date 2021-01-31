@@ -77,7 +77,7 @@ int main()
         return 0;
     }
     else {
-        printf("Did you drink palm bays? Enter 1 for yes or 2 for no:\n");
+        printf("Did you drink palm bays? Enter 1 for yes or 2 for no:\n"); //We don't stand palm bays
         scanf_s("%i", &palmBay);
         if (palmBay == 1) {
             printf("Error. Cannot help people with bad taste!");
@@ -86,7 +86,7 @@ int main()
             d1.alcholo = amtBooze;
         }
     }
-
+    //Functions Calls
     waterCal(&d1);
     printfun(&d1);
     nextCup(timeSinceWater, numGlasses, d1.total);
