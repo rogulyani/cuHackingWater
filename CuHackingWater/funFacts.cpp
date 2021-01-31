@@ -13,7 +13,7 @@
 void funFacts()
 {
 	char province;
-	printf("Please input the two letter code of your province for a fun fact!!!\n");
+	printf("\nPlease input the two letter code of your province for a fun fact!!!\n");
 	scanf_s("%c", &province);
 
 	switch (province)
