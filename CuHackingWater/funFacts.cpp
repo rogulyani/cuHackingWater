@@ -20,7 +20,7 @@ void funFacts()
 	{
 	case (ON):
 	{
-		printf("\nOntario’s more than 250,000 lakes contain about one-fifth of the world's fresh water");
+		printf("\nOntarioâ€™s more than 250,000 lakes contain about one-fifth of the world's fresh water");
 		break;
 	}
 	case(QC):
@@ -30,22 +30,22 @@ void funFacts()
 	}
 	case(NB):
 	{
-		printf("\n");
+		printf("\nThe Bay of Fundy's incredible tides are too strong for the Saint John River, forcing the waters to flow upstream twice a day, every day");
 		break;
 	}
 	case(NS):
 	{
-		printf("\nNova Scotia’s Bay of Fundy is home to the world’s highest tides");
+		printf("\nNova Scotiaâ€™s Bay of Fundy is home to the worldâ€™s highest tides");
 		break;
 	}
 	case(NL):
 	{
-		printf("\n");
+		printf("\nAt low tide, watch the Saint John River crash through a narrow gorge and tumble into the harbour, but during high tide the same river flows in the opposite direction.");
 		break;
 	}
 	case(AL):
 	{
-		printf("\n20% of the world’s drinking water is in Canada, but Alberta accounts for only 2.2% of Canada’s fresh water");
+		printf("\n20% of the worldâ€™s drinking water is in Canada, but Alberta accounts for only 2.2% of Canadaâ€™s fresh water");
 		break;
 	}
 	case(BC):
@@ -55,12 +55,12 @@ void funFacts()
 	}
 	case(MB):
 	{
-		printf("\n");
+		printf("\nAmong the worst floods in Canada's recent history was Manitoba's Red River flood of May 1997");
 		break;
 	}
 	case(SK):
 	{
-		printf("\n");
+		printf("\nLake Athabaska is the largest lake in the province, covering an area of 7,935 square kilometres.");
 		break;
 	}
 	case(PE):
