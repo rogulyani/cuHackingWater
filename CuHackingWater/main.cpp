@@ -2,7 +2,6 @@
 
 int main()
 {
-
     drinkerType d1;
     int active, timeSinceWater, palmBay;
     float weight, numWorkouts, numGlasses, amtCaffine, amtBooze, workoutTime;
@@ -88,13 +87,9 @@ int main()
         }
     }
 
-    // initDrinker(weight, amtBooze, amtCaffine, workoutTime, &d1);
-
     waterCal(&d1);
-
     printfun(&d1);
-
     nextCup(timeSinceWater, numGlasses, d1.total);
-
+    dayilyTracker(&d1);
     return 0;
 }
