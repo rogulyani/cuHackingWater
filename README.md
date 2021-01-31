@@ -1,8 +1,8 @@
 # cuHackingWater
 
 Team Member:
-Rohan Gulyani
-Emma McAvoy
+Rohan Gulyani,
+Emma McAvoy,
 Corey Nearing 
 
 Description:
