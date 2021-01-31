@@ -1,5 +1,10 @@
 #include "defs.h" 
-
+/// <summary>
+/// Prints to the user the average dayily total.
+/// Along with the added water to their total due to
+/// the amount of caffine & alcohol consumed
+/// </summary>
+/// <param name="ret"> pointer to a struct </param>
 void printfun(drinkerType* ret)
 {
 	float caf = ret->caffine * 8;
